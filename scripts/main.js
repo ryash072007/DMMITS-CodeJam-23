@@ -12,8 +12,8 @@ function createStars(count){
         const star = document.createElement('div')
         
         star.classList.add('star')
-        star.style.top = `${getpos(0,200)}px`
-        star.style.right = `${getpos(0,1000)}px`
+        star.style.top = `${getpos(0,document.body.scrollHeight)}px`
+        star.style.left = `${getpos(0,document.body.clientWidth - 10)}px`
         container.appendChild(star)
 
     }
@@ -23,4 +23,4 @@ function createStars(count){
 
 
 
-createStars(20)
+createStars(500)
