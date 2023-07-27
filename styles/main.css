@@ -2,6 +2,7 @@ body {
     height: 5000px;
     background-image: linear-gradient(180deg, rgba(6,0,103,1) 0%, rgba(0,78,150,1) 72%, rgba(0,181,255,1) 100%);;
     font-family: "Special Elite", "PT Sans", "Helvetica Neue";
+    margin: 0;
 }
 
 #entry-text {
@@ -14,4 +15,20 @@ body {
 
 .para{
     font-weight: 100px;
+}
+
+
+#stars{
+    width: 100%;
+    height: 500px;
+    
+}
+
+.star{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: absolute;
+
 }
