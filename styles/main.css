@@ -12,6 +12,25 @@ body {
     bottom: 0%;
 }
 
-.para{
-    font-weight: 100px;
-}
+.container {
+    overflow: hidden;
+  }
+
+.infinite-scrolling {
+    background: url(images/parralax_stars.png) repeat-x;
+    height: 500px;
+    width: 1500000px;
+
+    animation: slide 60s linear infinite;
+  }
+
+@keyframes slide {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-1920px, 0, 0); /* The image width */
+    }
+  }
+  
+  
