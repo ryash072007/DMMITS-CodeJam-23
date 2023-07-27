@@ -20,10 +20,10 @@ body {
 }
 
 .star{
-    width: 6px;
+    /* width: 6px;
     height: 6px;
     border-radius: 50%;
-    background-color: aliceblue;
+    background-color: aliceblue; */
     position: absolute;
 
 }
