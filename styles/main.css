@@ -4,6 +4,12 @@ body {
     font-family: "Special Elite", "PT Sans", "Helvetica Neue";
 }
 
+#main {
+    background: url(images/stars.png) repeat-x;
+    width: 100%;
+    height: 100%;
+}
+
 #entry-text {
     /* height: 100%; */
     width: 100%;
@@ -17,9 +23,9 @@ body {
   }
 
 .infinite-scrolling {
-    background: url(images/parralax_stars.png) repeat-x;
-    height: 500px;
-    width: 1500000px;
+    background: url(images/stars.png) repeat-x;
+    height: 6001px;
+    width: 4869px;
 
     animation: slide 60s linear infinite;
   }
@@ -29,8 +35,8 @@ body {
       transform: translate3d(0, 0, 0);
     }
     100% {
-      transform: translate3d(-1920px, 0, 0); /* The image width */
+      transform: translate3d(-4869px, -6001px, 0); /* The image width */
     }
   }
   
-  
+
