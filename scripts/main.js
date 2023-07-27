@@ -19,8 +19,8 @@ function createStars(count){
         star.classList.add('star')
         img.style.rotate = `${getpos(360,0)}deg`
         star.appendChild(img)
-        star.style.top = `${getpos(0,document.body.scrollHeight - 10)}px`
-        star.style.left = `${getpos(0,document.body.clientWidth - 10)}px`
+        star.style.top = `${getpos(document.body.scrollHeight - 10, 0)}px`
+        star.style.left = `${getpos(document.body.clientWidth - 10, 0)}px`
         container.appendChild(star)
 
     }
