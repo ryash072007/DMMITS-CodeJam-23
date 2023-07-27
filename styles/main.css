@@ -1,12 +1,12 @@
 body {
-    height: 1000px;
-    background-image: linear-gradient( #4d5ca2, #3f6ca8);
+    height: 5000px;
+    background-image: linear-gradient(180deg, rgba(6,0,103,1) 0%, rgba(0,78,150,1) 72%, rgba(0,181,255,1) 100%);;
     font-family: "Special Elite", "PT Sans", "Helvetica Neue";
 }
 
 #entry-text {
     /* height: 100%; */
-    width: 95%;
+    width: 100%;
     position: fixed;
     text-align: center;
     bottom: 0%;
