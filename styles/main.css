@@ -10,3 +10,13 @@ body {
     text-align: center;
     bottom: 0%;
 }
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+}
+
+.example{
+    background-color: aqua;
+}
