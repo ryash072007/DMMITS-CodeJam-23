@@ -16,3 +16,30 @@ body {
     grid-template-columns: 1fr;
     height: 100%;
 }
+
+#space-img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+    
+}
+#landingpage{
+    height: 600px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.btn {
+    position: absolute;
+    
+    
+    
+
+    
+}
+
