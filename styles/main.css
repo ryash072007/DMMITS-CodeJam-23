@@ -5,8 +5,8 @@ body {
 }
 
 #entry-text {
-    /* height: 100%; */
     width: 100%;
     position: fixed;
     text-align: center;
+    bottom: 0%;
 }
