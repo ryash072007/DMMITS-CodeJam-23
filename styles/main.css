@@ -33,31 +33,39 @@ body {
 }
 #landingpage{
     height: 600px;
-    background-image: url("/styles/images/space.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
-
     
-   
-
-   
-   
 }
+#bgimg{
+    background-image: url("/styles/images/space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:blur(2px);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+
+}
+   
+  
+  
+  
+  
+
+
 
 .btn {
-    cursor: url("/styles/images/galaxy.png");
-   
-    
+    z-index:4;
 
 }
-.btn:hover{
-    cursor: url("/styles/images/galaxy.png"),auto;
-}
+
     
     
     
