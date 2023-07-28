@@ -1,11 +1,10 @@
 body {
     height: 5000px;
-    background-image: linear-gradient(180deg, rgba(6,0,103,1) 0%, rgba(0,78,150,1) 72%, rgba(0,181,255,1) 100%);;
+    background-image: linear-gradient(180deg, rgba(6, 0, 103, 1) 0%, rgba(0, 78, 150, 1) 72%, rgba(0, 181, 255, 1) 100%);
     font-family: "Special Elite", "PT Sans", "Helvetica Neue";
-   
+
     margin: 0;
     /* cursor: url("/styles/images/galaxy.png"),auto; */
-   
 }
 
 #entry-text {
@@ -15,86 +14,62 @@ body {
     bottom: 0%;
 }
 
-#grid{  
+#grid {
     display: grid;
-    grid-template-columns:1fr;;
+    grid-template-columns: 1fr;
     height: 100%;
-    
+
 }
 
-#space-img{
-    
-    height: 100%;
-    width: 100%;
-    object-fit: fill;
-    z-index: 0;
-    
-    
-}
-#landingpage{
+
+#landingpage {
     height: 600px;
-    
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
+    color: white;
+
+
 }
-#bgimg{
+
+#spacebgimg {
     background-image: url("/styles/images/space.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    filter:blur(2px);
+    filter: blur(3px);
     width: 100%;
     height: 100%;
     position: absolute;
     z-index: -1;
 
 }
-   
-  
-  
-  
-  
-
-
 
 .btn {
-    z-index:4;
-
+    z-index: 4;
 }
 
-    
-    
-    
-   
-
-
-#title{
+#title {
     padding-top: 20px;
     margin: 0;
-    width:auto;
+    width: auto;
     z-index: 1;
     font-size: 3rem;
-    color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
     font-weight: 600;
+}
+#title span{
+    font-size: 5rem;
+    display: inline-block;
+    vertical-align:top;
+    padding-left: 8px;
+}
+
+#subtext{
+    font-size: 1.5rem;
     
 
 }
-#logo{
-    
-    width: 60px;
-    height: 60px;
-    background-color: rgb(13, 57, 88);
-    border-radius: 50%;
-    
-    
-
-}
-
