@@ -99,8 +99,8 @@ body {
 
 #inception{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    width: min-content(1024px);
+    grid-template-rows: 1fr 1fr 1fr;
+    width:100%;
     justify-content: center;
     padding: 0 10px;
     
@@ -131,19 +131,21 @@ body {
 }
 .sides-inception{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    
     padding: 5px 10px;
     font-size: 1.3rem;
     
     
 }
-.sides-inception div{
+.sides-inception span{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    max-width: 300px;
     
     
 }
