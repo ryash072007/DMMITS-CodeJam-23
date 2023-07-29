@@ -1,5 +1,4 @@
 body {
-    height: 5000px;
     background-image: linear-gradient(180deg, rgba(6, 0, 103, 1) 0%, rgba(0, 78, 150, 1) 72%, rgba(0, 181, 255, 1) 100%);
     font-family: "Special Elite", "PT Sans", "Helvetica Neue";
 
@@ -48,6 +47,18 @@ body {
 
 .btn {
     z-index: 4;
+}
+
+#timeline {
+    height: 600px;
+}
+
+#events {
+    height: 600px;
+}
+
+#inception {
+    height: 600px;
 }
 
 #title {
