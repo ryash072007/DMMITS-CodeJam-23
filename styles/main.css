@@ -31,7 +31,7 @@ body:disabled {
     justify-content: center;
     align-items: center;
     color: white;
-    overflow: hidden;   
+    overflow: hidden;
     position: relative;
     margin-bottom: 100px;
 
@@ -56,7 +56,7 @@ body:disabled {
     background-size: cover;
     background-position: center center;
     filter: blur(3px);
-    position:absolute;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -93,75 +93,77 @@ body:disabled {
     text-align: center;
     font-weight: 600;
 }
-#title span{
+
+#title span {
     font-size: 5rem;
     display: inline-block;
-    vertical-align:top;
+    vertical-align: top;
     padding-left: 8px;
 }
 
-#subtext{
+#subtext {
     font-size: 1.5rem;
     margin-bottom: 20px;
-    
+
 
 }
 
 
 
-#inception{
+#inception {
     display: grid;
     position: relative;
     grid-template-rows: 1fr 1fr;
-    width:100%;
+    width: 100%;
     justify-content: center;
     padding: 0 10px;
-    background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 59%, rgba(115,0,255,1) 100%);
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 59%, rgba(115, 0, 255, 1) 100%);
     overflow-x: auto;
 
 }
 
 
-#center-inception{
+#center-inception {
     display: flex;
-    align-items:center;
-    justify-content:baseline;
+    align-items: center;
+    justify-content: baseline;
     flex-direction: column;
     font-size: 5rem;
     position: relative;
 }
-#center-inception h1{
+
+#center-inception h1 {
     font-size: 5rem;
     margin: 0;
     text-align: center;
     color: aliceblue;
     transition: opacity 0.5s ease-in-out;
-    
-    
+
+
 }
 
 
-#center-inception span{
+#center-inception span {
     font-size: 1.15rem;
 
 }
 
-.slide{ 
+.slide {
     display: flex;
     align-items: center;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
     scroll-behavior: smooth;
-    overflow-x:scroll;
-    max-width:700px;
+    overflow-x: scroll;
+    max-width: 700px;
     gap: 10px;
 
 }
 
 
-.slide section{
+.slide section {
     padding: 40px 20px;
     min-width: 500px;
     display: flex;
@@ -171,14 +173,14 @@ body:disabled {
     height: 240px;
     border: 2px solid rgba(15, 1, 121, 0.173);
     border-radius: 12px;
-    background-color: rgba(41, 87, 236, 0.101);   
-    
+    background-color: rgba(41, 87, 236, 0.101);
+
 }
 
 
-.slide .text .bgs{
+.slide .text .bgs {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
@@ -187,23 +189,23 @@ body:disabled {
 }
 
 
-#center-inception .btn-next{
+#center-inception .btn-next {
     position: absolute;
     right: -60px;
     top: -175px;
     font-size: 2rem;
     padding: 0 10px;
-    
-    
-    
+
+
+
     border-radius: 50%;
     background-color: blueviolet;
     border: none;
 
 }
 
-#go-to-bts{
-    background: linear-gradient(to right,#196BCA ,#6433E0);
+#go-to-bts {
+    background: linear-gradient(to right, #196BCA, #6433E0);
     background-color: #196BCA;
     color: #fff;
     font-family: Trebuchet MS;
@@ -215,12 +217,13 @@ body:disabled {
     border: 0px solid #000;
     border-radius: 10px;
     display: inline-block;
-   }
-#go-to-bts:hover{
-background: linear-gradient(to right,#5482d0 ,#7d5ee3);
-background-color: #5482d0;
-}
-#go-to-bts:active{
-transform: scale(0.95);
 }
 
+#go-to-bts:hover {
+    background: linear-gradient(to right, #5482d0, #7d5ee3);
+    background-color: #5482d0;
+}
+
+#go-to-bts:active {
+    transform: scale(0.95);
+}
