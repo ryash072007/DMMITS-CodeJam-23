@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="styles/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="scripts/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 
-<body class = "bg-dark" >
+<body class="bg-dark">
     <div id="grid">
         
+
 
 
         <div id="landingpage">
@@ -28,45 +28,89 @@
                 <div class="mr-2">ISRO A Journey to</div>
                 <span>&#8734;</span>
             </div>
-            <div id = "subtext">By PIES</div>
+            <div id="subtext">By PIES</div>
 
             <button type="button" class="btn btn-dark btn-lg" onclick="scrollToBottom()">Start your journey
                 here</button>
 
         </div>
 
-        <div id = "gallery" class="bg-dark">
-            images            
+        <div id="gallery" class="bg-dark">
+            images
         </div>
 
-        <div id = "buttons" class="bg-success">
-            buttons            
+        <div id="buttons" class="bg-success">
+            buttons
         </div>
-        <div id = "inception">
-            <div class = "sides-inception">
-                <span>Initial research is done on cosmic radiation and other space phenomenons.</span>
-                <span>ISRO (Indian Space Research Organization) is formed in 1969 replacing INCOSPAR.</span>
+
+        <div id="inception">
+            
+            
+            <div class="slide" id="slide">
+                <div class="text">
+                    <section>
+                        Wait... What is INCOSPAR <br> Where is ISRO?
+                    </section>
+                </div>
+                <div class="text">
+                    
+                   
+                    <section>
+                        INCOSPAR (Indian National Committee for Space Research) was formed in 1962 to jump-start Indian research on space.
+
+                    </section>
+                    
+                </div>
+                <div class="text">
+                    <section>
+                        It employed people who specialized in aerodynamics and rocket fuel from Indian Ordnance Factories.
+
+                    </section>
+                    </div>
+                <div class="text">
+                    <section>
+                        Under the umbrella of INCOSPAR, various experiments were conducted, including those related to cosmic radiation, high altitude, airborne testing, and other space phenomena.
+
+                    </section> 
+                </div>
+                <div class="text">
+                    <section>
+                        However, to further speed up space research in India and achieve more significant milestones, ISRO (Indian Space Research Organisation) was created. It superseded INCOSPAR and took on a broader mandate.
+                    </section> 
+                </div>
+                <div class="text">
+                    <section>
+                        ISRO, established under the newly formed Department of Space, continued the efforts initiated by INCOSPAR. It sent several satellites into space, utilizing Russian-made rockets, and conducted a wide range of experiments.
+                    </section> 
+                </div>
+                <div class="text">
+                    <section>
+                        <button id = "go-to-bts" onclick="scrollUp(400)">Where Do you Want to go?</button>
+                    </section> 
+                </div>
+
                 
+            </div>
+
+
+            <div id="center-inception">
+                <h1 id = "title-end">INCOSPAR</h1>
+                <span id = "subtitle">Indian National Committee for Space Research</span>
+                <button class="btn-next" onclick="scrollleft()">➤</button>
 
             </div>
-            <div id = "center-inception">
-                <h1>INCOSPAR</h1>
-                <span>Indian National Committee for Space Research</span>
-            </div> 
-            <div class = "sides-inception">
-                <span>Space commission and department of space is formed in 1972.</span>
-                <span>Staff for ISRO are chosen from Indian Ordnance factories who specialize in propellants and aerodynamics.</span>
-
-            </div>          
         </div>
-        
-        
-        
+
+
+
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
+
 
 </body>
 

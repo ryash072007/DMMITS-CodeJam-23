@@ -59,7 +59,6 @@ body:disabled {
     position:absolute;
     top: 0;
     left: 0;
-    
     width: 100%;
     height: 90%;
     z-index: 0;
@@ -112,62 +111,116 @@ body:disabled {
 
 #inception{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    position: relative;
+    grid-template-rows: 1fr 1fr;
     width:100%;
     justify-content: center;
     padding: 0 10px;
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 59%, rgba(115,0,255,1) 100%);
-    
+    overflow-x: auto;
 
 }
-@media (max-width:768px) {
-    #inception{
-        grid-template-columns: 1fr;
-    }
-    
-}
+
 
 #center-inception{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    justify-content:baseline;
     flex-direction: column;
     font-size: 5rem;
+    position: relative;
 }
 #center-inception h1{
     font-size: 5rem;
     margin: 0;
     text-align: center;
-    background: rgb(34,66,195);
-    background: linear-gradient(45deg, rgba(34,66,195,1) 0%, rgba(127,45,253,1) 100%);
-    background-size: 100%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
+    color: aliceblue;
+    transition: opacity 0.5s ease-in-out;
+    
+    
 }
+
+
 #center-inception span{
     font-size: 1.15rem;
 
 }
-.sides-inception{
+
+.slide{ 
     display: flex;
-    justify-content:space-evenly;
     align-items: center;
-    flex-direction: row;
-    
-    padding: 5px 10px;
-    font-size: 1.3rem;
-    
-    
+    text-align: center;
+    font-size: 1.5rem;
+
+    scroll-behavior: smooth;
+    overflow-x:scroll;
+    max-width:700px;
+    gap: 10px;
+
 }
-.sides-inception span{
+
+
+.slide section{
+    padding: 40px 20px;
+    min-width: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    max-width: 300px;
-    
+
+    height: 240px;
+    border: 2px solid rgba(15, 1, 121, 0.173);
+    border-radius: 12px;
+    background-color: rgba(41, 87, 236, 0.101);   
     
 }
+
+
+.slide .text .bgs{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    filter: blur(2px);
+}
+
+
+#center-inception .btn-next{
+    position: absolute;
+    right: -60px;
+    top: -175px;
+    font-size: 2rem;
+    padding: 0 10px;
+    
+    
+    
+    border-radius: 50%;
+    background-color: blueviolet;
+    border: none;
+
+}
+
+#go-to-bts{
+    background: linear-gradient(to right,#196BCA ,#6433E0);
+    background-color: #196BCA;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 14px 15px;
+    border: 0px solid #000;
+    border-radius: 10px;
+    display: inline-block;
+   }
+#go-to-bts:hover{
+background: linear-gradient(to right,#5482d0 ,#7d5ee3);
+background-color: #5482d0;
+}
+#go-to-bts:active{
+transform: scale(0.95);
+}
+
