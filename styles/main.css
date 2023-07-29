@@ -51,14 +51,17 @@ body {
 
 #timeline {
     height: 600px;
+    background: linear-gradient(180deg, rgba(33,37,41,1) 95%, rgba(25,135,84,1) 100%);
 }
 
 #events {
     height: 600px;
+    background: linear-gradient(180deg, rgba(25,135,84,1) 0%, rgba(32,137,82,1) 95%, rgba(255,193,7,1) 100%);
 }
 
 #inception {
     height: 600px;
+
 }
 
 #title {
