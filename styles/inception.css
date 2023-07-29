@@ -1,0 +1,99 @@
+body {
+    height: 100vh;
+    font-family: "Special Elite", "PT Sans", "Helvetica Neue";
+    overflow-x: hidden;
+}
+
+.btn {
+    z-index: 4;
+}
+
+#title {
+    padding-top: 20px;
+    margin: 0;
+    width: auto;
+    z-index: 1;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+}
+
+#title span{
+    font-size: 5rem;
+    display: inline-block;
+    vertical-align:top;
+    padding-left: 8px;
+}
+.inception_bck {
+    opacity: 80%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/inception.jpg);
+}
+
+
+#subtext{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+
+
+#inception{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: min-content(1024px);
+    justify-content: center;
+    padding: 0 10px;
+    height: 100%;
+    
+
+}
+@media (max-width:768px) {
+    #inception{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+#center-inception{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 5rem;
+}
+#center-inception h1{
+    font-size: 5rem;
+    margin: 0;
+    text-align: center;
+}
+#center-inception span{
+    font-size: 1.15rem;
+
+}
+.sides-inception{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    
+    
+}
+.sides-inception div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
