@@ -69,6 +69,16 @@ body {
     height: 600px;
 }
 
+.inception_bck {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/inception.jpg);
+}
+
 #title {
     padding-top: 20px;
     margin: 0;
