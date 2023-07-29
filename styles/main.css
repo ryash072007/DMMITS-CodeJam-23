@@ -1,4 +1,4 @@
-body {
+#body_main {
     background-image: linear-gradient(180deg, rgba(6, 0, 103, 1) 0%, rgba(0, 78, 150, 1) 72%, rgba(0, 181, 255, 1) 100%);
     font-family: "Special Elite", "PT Sans", "Helvetica Neue";
 
@@ -86,3 +86,16 @@ body {
     
 
 }
+
+#rocket_body {
+    background-color: gray;
+}
+
+#rocket {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;;
+}
+
