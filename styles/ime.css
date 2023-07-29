@@ -1,0 +1,53 @@
+body {
+    background-image: url(images/Insat3e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow-x: hidden;
+    font-family: "Special Elite";
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+#bottom {
+    position: absolute;
+    bottom: 0%;
+    width: 33%;
+}
+
+.left {
+    text-align: center;
+    color: white;
+    padding-left: 10px;
+    bottom: 0%;
+}
+
+.right {
+    text-align: center;
+    color: white;
+    padding-left: 10px;
+    bottom: 0%;
+    left: 65%;
+}
+
+.middle {
+    text-align: center;
+    color: white;
+    padding-left: 10px;
+}
+
+.center_text {
+    position: fixed;
+    text-align: center;
+    color: darkorange;
+    left: 35%;
+    bottom: 50%;
+}
