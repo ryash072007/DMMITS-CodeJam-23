@@ -12,6 +12,10 @@ body {
 
     margin: 0;
     overflow-x: hidden;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; */
     /* cursor: url("/styles/images/galaxy.png"),auto; */
 }
 
@@ -27,6 +31,8 @@ body {
     grid-template-columns: 1fr;
     height: 100%;
     color: white;
+    
+    
     
 
 }
@@ -80,9 +86,16 @@ body {
 #gallery {
     height: fit-content;   
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    
+}
+
+#gallery h1{
+    font-size: 5rem;
+    margin-bottom: 25px;
+    color: #FFF7D4;
 }
 
 #gallery >.grid-wrap {
@@ -94,6 +107,7 @@ body {
     grid-auto-rows: 400px;
     grid-auto-flow: dense;
     padding: 0 20px;
+
     
 }
 
@@ -113,6 +127,7 @@ body {
     vertical-align: middle;
     display: inline-block;
     border-radius: 12px;
+    background-color: #000;
 }
 
 .grid-wrap .wide {
@@ -156,34 +171,41 @@ body {
 
 
 #buttons {
-    height: 300px;
+    height: fit-content;
     width: 100%;
+    
     display: grid;
     grid-template-rows: 1fr 100px;
     align-items: center;
     background:var(--blue2);
     position: relative;
+    
+    
    
 
     
 }
 
 #buttons #list-bts{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
     justify-content: space-evenly;
     height: 100%;
     background-color:var(--blue);
     border-radius: 0 0 45px 45px;
     align-items: center;
+    padding-bottom: 20px;
     
     
 }
 
 
+
+
 #buttons button {
     position: relative;
-    display: inline-block;
+    align-self: center;
     margin: 15px;
     padding: 15px 30px;
     text-align: center;
@@ -197,6 +219,8 @@ body {
     border: 2px solid #988eb9;
     border-radius: 10px;
     box-shadow: inset 0 0 0 0 #725AC1;
+    min-width: 250px;
+    margin: 0 auto;
   }
   
   #buttons button:hover {
@@ -224,6 +248,7 @@ body {
     border-radius: 0 0 20px 20px;
 }
 #buttons span::before {
+    visibility: hidden;
     content: "";
     position: absolute;
     
@@ -237,6 +262,7 @@ body {
     
   }
 #buttons span::after {
+    visibility: hidden;
     content: "";
     position: absolute;
     
@@ -341,7 +367,7 @@ body {
 
     scroll-behavior: smooth;
     overflow-x: scroll;
-    max-width: 700px;
+    max-width: 1000px;
     gap: 10px;
 
 }
@@ -375,8 +401,8 @@ body {
 
 #center-inception .btn-next {
     position: absolute;
-    right: -60px;
-    top: -175px;
+    right: 0;
+    top: 0;
     font-size: 2rem;
     padding: 0 10px;
 
@@ -410,4 +436,19 @@ body {
 
 #go-to-bts:active {
     transform: scale(0.95);
+}
+
+@media (max-width:768px) {
+    #buttons #list-bts{
+        grid-template-columns: 1fr;
+        padding-bottom: 15px;
+    }
+    #center-inception .btn-next {
+        right: 0;
+        top: -50px;
+        
+    
+    }
+
+    
 }
