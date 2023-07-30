@@ -7,6 +7,7 @@
     <title>PSLV - ISRO's most Reliable Rocket</title>
 
     <link rel="stylesheet" href="styles/pslv.css">
+    <script src="scripts/pslv.js"></script>
 </head>
 
 <body>
@@ -17,11 +18,11 @@
     </center>
     <div class="grid">
         <div class="full_image">
-            <img src="styles/images/PSLV - Copy.png" alt="">
-            <img src="styles/images/PSLV - Copy (2).png" alt="">
-            <img src="styles/images/PSLV - Copy (3).png" alt="">
-            <img src="styles/images/PSLV - Copy (4).png" alt="">
-            <img src="styles/images/PSLV - Copy (5).png" alt="">
+            <img src="styles/images/PSLV - Copy.png" alt="" onclick="show1()">
+            <img src="styles/images/PSLV - Copy (2).png" alt="" onclick="show2()">
+            <img src="styles/images/PSLV - Copy (3).png" alt="" onclick="show3()">
+            <img src="styles/images/PSLV - Copy (4).png" alt="" onclick="show4()">
+            <img src="styles/images/PSLV - Copy (5).png" alt="" onclick="show5()">
         </div>
         <div></div>
         <div>
@@ -47,7 +48,11 @@
         </div>
         <div>
             <center>
-                image
+                <h4 id="topic">
+                    Click any part of the rocket image to see more details about it.
+                </h4>
+                <img src="" alt="" id="image_on_click">
+                <p class="details_about_part"></p>
             </center>
         </div>
     </div>

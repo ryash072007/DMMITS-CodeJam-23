@@ -1,4 +1,4 @@
-img {
+.full_image img {
     display: block;
     /* padding-left: 150%; */
     /* margin: auto; */
@@ -19,6 +19,11 @@ img {
 
 img:hover {
     transform: scale(1.25);
+}
+
+#image_on_click {
+    transform-origin: center top;
+    transform: scale(2);
 }
 
 /* #non-positional {
