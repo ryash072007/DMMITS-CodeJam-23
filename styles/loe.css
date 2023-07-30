@@ -1,10 +1,20 @@
 .slideshow {
     position: relative;
-    background: #f1f1f1f1;
+    background: #E9FFC2;
+}
+
+body {
+  font-family: "Special Elite", "Comic Sans MS", "Helvetica Neue";
+  line-height: 125%;
 }
 
 .slide_content {
   max-width: 60%;
+}
+
+img {
+  border-radius: 50px;
+  box-shadow: 5px 7px;
 }
 
 body {
@@ -52,7 +62,7 @@ body {
 .dot-container {
     text-align: center;
     padding: 20px;
-    background: #ddd;
+    background: #C3EDC0;
   }
   
 
