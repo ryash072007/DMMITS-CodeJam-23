@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISRO - DMMITS CODEJAM 23 - PIES</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/quiz.css">
+    
+
+<body>
+    <div id = "quiz-container">
+        <div id = "question">
+            Questions is loading...
+
+        </div>
+        <ul>
+            <li>
+                <input type="radio" name="answer" id="a" class="answer" />
+                <label for="a" id="a_text">Answer...</label>
+              </li>
+              <li>
+                <input type="radio" name="answer" id="b" class="answer" />
+                <label for="b" id="b_text">Answer...</label>
+              </li>
+              <li>
+                <input type="radio" name="answer" id="c" class="answer" />
+                <label for="c" id="c_text">Answer...</label>
+              </li>
+
+              <button id = "submit" onclick="submit()" class="btn btn-dark btn-sm">Submit</button>
+        </ul>
+    </div>
+    
+
+    <script src="scripts/quiz.js"></script>
+    
+
+</body>
+
+</html>
