@@ -11,36 +11,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/quiz.css">
-    
+
 
 <body>
-    <div class = "stars"></div>
-    <div id = "quiz-container">
-        <div id = "question">
+    <div class="stars"></div>
+    <h1>Quiz Time</h1>
+    <div id="quiz-container">
+        <div id="question">
             Questions is loading...
 
         </div>
-        <ul>
-            <li>
-                <input type="radio" name="answer" id="a" class="answer" />
-                <label for="a" id="a_text">Answer...</label>
-              </li>
-              <li>
-                <input type="radio" name="answer" id="b" class="answer" />
-                <label for="b" id="b_text">Answer...</label>
-              </li>
-              <li>
-                <input type="radio" name="answer" id="c" class="answer" />
-                <label for="c" id="c_text">Answer...</label>
-              </li>
+        <div class="options-list">
+            <label for="a">
+                <div>
+                    <input type="radio" name="answer" id="a" class="answer" />
+                    <span id="a_text">Answer...</span>
+                </div>
 
-              <button id = "submit" onclick="submit()" class="btn btn-dark btn-sm">Submit</button>
-        </ul>
+            </label>
+
+
+            <label for="b">
+                <div>
+                    <input type="radio" name="answer" id="b" class="answer" />
+                    <span id="b_text">Answer...</span>
+                </div>
+            </label>
+
+            <label for="c">
+                <div>
+                    <input type="radio" name="answer" id="c" class="answer" />
+                    <span id="c_text">Answer...</span>
+                </div>
+            </label>
+
+
+
+
+
+
+
+
+
+        </div>
+        <button id="submit" onclick="submit()" class="btn">Submit</button>
+
     </div>
-    
+
 
     <script src="scripts/quiz.js"></script>
-    
+
 
 </body>
 
