@@ -66,7 +66,7 @@ body {
 }
 
 #spacebgimg {
-    background-image: url("/styles/images/space.jpg");
+    background-image: url("images/space.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -331,7 +331,7 @@ body {
     justify-content: center;
     padding: 0 10px;
     background: rgb(2, 0, 36);
-    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 59%, rgba(115, 0, 255, 1) 100%);
+    /* background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 59%, rgba(115, 0, 255, 1) 100%); */
     overflow-x: auto;
 
 }
