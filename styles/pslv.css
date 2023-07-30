@@ -1,0 +1,26 @@
+img {
+    display: block;
+    /* padding-left: 150%; */
+    /* margin: auto; */
+}
+
+.grid {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.full_image {
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+    left: 14%;
+}
+
+img:hover {
+    transform: scale(1.25);
+}
+
+/* #non-positional {
+    position: absolute;
+} */
