@@ -17,11 +17,11 @@
     <div class="stars"></div>
     <h1>Quiz Time</h1>
     <div id="quiz-container">
-        <div id="question">
+        <div id="question" class="item">
             Questions is loading...
 
         </div>
-        <div class="options-list">
+        <div class="options-list" id = "bslist">
             <label for="a">
                 <div>
                     <input type="radio" name="answer" id="a" class="answer" />
@@ -54,7 +54,9 @@
 
 
         </div>
-        <button id="submit" onclick="submit()" class="btn">Submit</button>
+        <div class="item">
+            <button id="submit" onclick="submit()" class="btn">Submit</button>
+        </div>
 
     </div>
 

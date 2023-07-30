@@ -26,12 +26,14 @@ h1{
     pointer-events: none;
     animation: twinkle 8s;
     animation-iteration-count: infinite;
+    z-index: -100;
 
 }
 
 
 
 #quiz-container{
+    margin: 0 auto;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -44,7 +46,7 @@ h1{
     
 }
 
-#quiz-container #question,#quiz-container button{
+#quiz-container .item{
     display: flex;
     align-self: center;
     justify-content: center;
@@ -62,12 +64,41 @@ h1{
 .options-list > label{
     min-width: 300px;
     padding: 20px 0;
-    background-color: black;
+    background-color: rgb(42, 24, 65);
+    border-radius: 12px;
 }
-
+.options-list > label:hover{
+    background-color: rgb(95, 60, 140);
+}
 
 
 .btn{
+    margin-top: 12px;
     
-    max-width: 300px;
+    min-width: 300px;
+    height: 50px;
+    border-radius: 12px;
+    border:none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(146, 127, 255);
+    transition: all 0.4s;
+    box-shadow: 0 0 40px 5px rgb(146, 127, 255);
+
+
 }
+
+.btn:hover{
+    transform: scale(1.09);
+
+}
+
+.btn:active{
+    transform: scale(0.7);
+}
+
+
+#question{
+    font-size: 1.5rem;
+}
+
