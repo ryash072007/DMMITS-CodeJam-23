@@ -455,3 +455,12 @@ body {
 
     
 }
+
+#quiz-container{
+    display: grid;
+    justify-content: center;   
+    height: 200px;
+    grid-template-rows: 20px 20px ;
+    
+    
+}
