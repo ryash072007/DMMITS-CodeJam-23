@@ -3,6 +3,40 @@
     background: #E9FFC2;
 }
 
+#home {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 1, 1;
+}
+
+body>button:hover {
+  transform: scale(1.2);
+}
+
+/* .heading {
+  position: absolute;
+  top: 10px
+} */
+
+body>button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  overflow: hidden;
+  background-color: white;
+
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+
+  border: 1px solid black;
+  z-index: 1000;
+  transition: transform 0.4s;
+}
+
 body {
   font-family: "Special Elite", "Comic Sans MS", "Helvetica Neue";
   line-height: 125%;
@@ -20,11 +54,12 @@ img {
 body {
   max-height: 100vh;
   max-width: 100vw;
+  background-color: rgb(255,255,194);
 }
 
 .slides {
     display: none;
-    padding: 80px;
+    padding: 30px;
     text-align: center;
 }
 
