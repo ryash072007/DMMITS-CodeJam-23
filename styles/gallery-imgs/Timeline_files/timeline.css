@@ -1,0 +1,51 @@
+body{
+    background-color: red!important;
+    
+    
+}
+
+.timeline{
+    position: relative;
+    max-width: 800px;  
+    margin: 100px auto;
+}
+.timelixne ::before{
+    content: "";
+    position: absolute;
+    left:0;
+    top: 0;
+    height: 110%;
+    width: 20px;
+    background-color: aquamarine;
+    border: 2px solid saddlebrown;
+    z-index: -1;
+}
+
+.container{
+    position: relative;
+    padding: 20px 10px;
+    margin-top: 10px;
+    background-color: brown;
+    width: 500px;
+}
+
+p{
+    width: 100%;
+}
+h1{
+    width: inherit;
+}
+
+
+
+.containser::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: bisque;
+    top: 10px;
+    left: -60px;
+    z-index: 10;
+}

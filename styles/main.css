@@ -65,7 +65,7 @@ body {
 }
 
 #spacebgimg {
-    background-image: url("/styles/images/space.jpg");
+    background-image: url("styles/images/space.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
