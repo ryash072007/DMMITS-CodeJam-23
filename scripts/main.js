@@ -17,7 +17,12 @@ function scrollleft() {
 
 }
 function scrollUp(val) {
-    window.scrollBy(0, -val);
+    const div = document.getElementById('transition-gal-bts');
+    div.scrollIntoView({behavior:'smooth'})
+    
+    
+      
+    
 }
 
 function transtion() {
