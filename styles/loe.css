@@ -3,6 +3,10 @@
     /* background: rgba(233, 255, 194, 40%); */
 }
 
+button{
+  cursor: pointer;
+}
+
 #home {
   /* position: fixed; */
   object-fit: cover;

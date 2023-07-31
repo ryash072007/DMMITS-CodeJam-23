@@ -28,6 +28,9 @@ button{
 button:active{
     transform: scale(0.5);
 }
+button:hover{
+    transform: scale(1.07);
+}
 
 .stars {
     position: fixed;
@@ -193,7 +196,7 @@ button:active{
     z-index: 1;
 }
 #gallery .grid-wrap > div:hover{
-    box-shadow: 0 0 30px 10px rgb(245, 242, 70);
+    box-shadow: 0 0 30px 10px rgb(6, 31, 61);
     border-radius: 12px;
     transform: scale(1.02);
     z-index: 100;
