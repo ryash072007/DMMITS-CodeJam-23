@@ -21,6 +21,10 @@ body {
     /* cursor: url("/styles/images/galaxy.png"),auto; */
 }
 
+button{
+    cursor: pointer;
+}
+
 .stars {
     position: fixed;
     top: 0;
