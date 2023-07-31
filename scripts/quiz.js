@@ -1,7 +1,7 @@
 let starsColleted = 0;
 let quizQuestion = 0;
 let correct_answer = 0;
-const total_qs = 4;
+const total_qs = 7;
 
 const quizcontainer = document.getElementById("quiz-container");
 const answerElements = Array.from(document.querySelectorAll(".answer"));
@@ -46,6 +46,27 @@ const Qdata = [
         b: "5th November, 2013",
         c: "5th January, 2014",
         correct: "b",
+    },
+    {
+        qs: "6. Which is ISRO's most reliable satellite launcher series?",
+        a: "GSLV series",
+        b: "PSLV series",
+        c: "ASLV series",
+        correct: "b",
+    },
+    {
+        qs: "7. How many days did it take for Mangalyaan to reach Mars?",
+        a: "299 days",
+        b: "289 days",
+        c: "298 days",
+        correct: "c",
+    },
+    {
+        qs: "8. What is India's indigenous satellite system's name?",
+        a: "INSAT",
+        b: "IISS",
+        c: "ISS",
+        correct: "a",
     }
 
 
@@ -99,7 +120,7 @@ function displayresult() {
 
     const opts = document.getElementById("bslist")
     opts.style.visibility = "hidden"
-    questionElement.innerHTML = "Your score is " + correct_answer
+    questionElement.innerHTML = "You have scored " + correct_answer + " out of " + (total_qs + 1) + " questions."
 
 
 }
