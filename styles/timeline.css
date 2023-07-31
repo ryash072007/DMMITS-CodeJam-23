@@ -7,6 +7,10 @@ body {
 
 }
 
+button{
+    cursor: pointer;
+}
+
 body>button {
     position: fixed;
     top: 20px;
