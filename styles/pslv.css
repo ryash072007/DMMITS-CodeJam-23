@@ -148,9 +148,11 @@ p:hover {
     }
 
     .full_image {
-        position: absolute;
+        position: relative;
+        transform: scale(0.1);
+        padding: 0%;
         object-position: center;
-        left: calc(50% - 64px);
+        /* left: calc(50% - 64px); */
         /* height: 500px; */
 }
 }
