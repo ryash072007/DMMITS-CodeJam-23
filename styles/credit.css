@@ -4,11 +4,22 @@ body {
     font-family: 'Special Elite', 'Helvetica Neue';
     line-height: 25px;
     color: white;
-    background-image: linear-gradient(to right top, #afad4f, #99b661, #84be78, #70c491, #5fc8aa);
-    background-repeat: no-repeat;
+    /* background-image: linear-gradient(to right top, #afad4f, #99b661, #84be78, #70c491, #5fc8aa);
+    background-repeat: no-repeat; */
     /* background-size: cover; */
+    font-family: sans-serif;
+    background-image: linear-gradient(0deg, rgba(27, 24, 31, 1) 21.2%, rgba(50, 4, 89, 1) 84.8%);
+    position: relative;
     min-height: 100vh;
 
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(255, 193, 36);
 }
 
 body>button {
@@ -30,6 +41,34 @@ body>button {
 }
 body>button:hover {
     transform: scale(1.2);
+}
+
+.stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/stars.png') repeat;
+    pointer-events: none;
+    animation: twinkle 8s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes twinkle {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
 }
 
 #home {
@@ -57,7 +96,7 @@ body>button:hover {
 .creators {
     /* position: absolute; */
     /* margin-top: calc(80% - ); */
-    border: 10px double plum;
+    border: 10px double rgb(181, 160, 221);
     width: 80%;
     bottom: 10px;
     left: 10%;
