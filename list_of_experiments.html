@@ -16,75 +16,90 @@
 
 <body onload="currentSlide(1)">
     <button onclick="window.location.href = 'index.html#transition-gal-bts'"><img src="styles/images/homebts.png" id="home"></button>
-    <center><u><h1 class="heading">Major Projects by ISRO</h1></u></center>
-    <center class="full">
-        <div class="slideshow">
-            <div class="slides">
-                <center>
-                    <h1>SITE - Satellite Instructional Television Experiment</h1>
-                    <p class="slide_content">
-                        One of the first major experiments conducted was the SITE operation. ISRO wanted to test out
-                        sattelite capabilities in a time where it was still in its primitive form.
-                        In order to achieve this goal and to help the rural people of India, the SITE operation was
-                        launched in 1975. The SITE operation involved broadcasting information related to science,
-                        literature, and, finance to people in over 2000 villages.
-                        This operation is also credited with training 50,000 primary science teachers and helped over
-                        200,000 people. Thus it was considered as the largest sociological experiment in the world at
-                        that time.
-                    </p>
-                    <br><br><br>
-                    <img src="styles/images/Ats-6.jpg" alt="ATS-6 satellite that was used for SITE">
-                    <p><u>The ATS-6 satellite that was used for SITE</u></p>
-                </center>
+    <div class="background">
+        <div class="stars"></div>
+        <center>
+            <h1 class="heading">Major Projects by ISRO</h1>
+        </center>
+        <center class="full">
+            <div class="slideshow">
+                <div class="slides">
+                    <center>
+                        <h1 id="individual_heading">SITE - Satellite Instructional Television Experiment</h1>
+                        <p class="slide_content">
+                            One of the first major experiments conducted was the SITE operation. ISRO wanted to test out
+                            sattelite capabilities in a time where it was still in its primitive form.
+                            In order to achieve this goal and to help the rural people of India, the SITE operation was
+                            launched in 1975. The SITE operation involved broadcasting information related to science,
+                            literature, and, finance to people in over 2000 villages.
+                            This operation is also credited with training 50,000 primary science teachers and helped
+                            over
+                            200,000 people. Thus it was considered as the largest sociological experiment in the world
+                            at
+                            that time.
+                        </p>
+                        <br><br><br>
+                        <img src="styles/images/Ats-6.jpg" alt="ATS-6 satellite that was used for SITE">
+                        <p><u>The ATS-6 satellite that was used for SITE</u></p>
+                    </center>
+                </div>
+                <div class="slides">
+                    <center>
+                        <h1 id="individual_heading">
+                            Mars Orbiter Mission - Mangalyaan
+                        </h1>
+                        <p class="slide_content">
+                            The Mars Orbiter Mission was the first interplanetary mission conducted by India and waas
+                            launched in november of 2013. This was the first Mars Mission to succeed in its first
+                            attempt in
+                            the world and the first asian country to do so.
+                            It was launched using a PSLV rocket and took 298 days to reach Mars. It is the least
+                            expensive
+                            Mars mission to date at around 450 crore rupees. This was only possible beacuse the team
+                            behind
+                            the mission decided to use a modular system for it.
+                        </p>
+                        <br><br><br>
+                        <img src="styles/images/Mars_Orbiter_Mission_Spacecraft.jpg"
+                            alt="Mars Orbiter Mission spacecraft">
+                        <p><u>Components of the Mars Mission</u></p>
+                    </center>
+                </div>
+                <div class="slides">
+                    <center>
+                        <h1 id="individual_heading">
+                            INSAT - Indian National Satellite System
+                        </h1>
+                        <p class="slide_content">
+                            INSAT was commissioned in 1983 with the launch of INSAT-1B. It was a revolutionary system at
+                            that time and continues to be a pillar for broadcasting sector in India. It brought forward
+                            a
+                            television and audio revolution in India to where it is now. It is a thick network of 11
+                            sattelites that are monitored and controlled by Master Control Facilities present in Bhopal
+                            and
+                            Hassan.
+                            The INSAT sattelites' provides threee diffrent electromagnetic bands for various purposes.
+                            The
+                            INSAT system also enables India to recieve SOS messages from the South Asian and Indian
+                            Ocean
+                            for search and rescue missions.
+                        </p>
+                        <br><br><br>
+                        <img src="styles/images/insat3b.jpg" alt="INSAT 3B">
+                        <p><u>The first INSAT sattelite that succeeded</u></p>
+                    </center>
+                </div>
+                <a class="previous" onclick="goBack()">&#10094;</a>
+                <a class="forward" onclick="goForward()">&#10095;</a>
             </div>
-            <div class="slides">
-                <center>
-                    <h1>
-                        Mars Orbiter Mission - Mangalyaan
-                    </h1>
-                    <p class="slide_content">
-                        The Mars Orbiter Mission was the first interplanetary mission conducted by India and waas
-                        launched in november of 2013. This was the first Mars Mission to succeed in its first attempt in
-                        the world and the first asian country to do so.
-                        It was launched using a PSLV rocket and took 298 days to reach Mars. It is the least expensive
-                        Mars mission to date at around 450 crore rupees. This was only possible beacuse the team behind
-                        the mission decided to use a modular system for it.
-                    </p>
-                    <br><br><br>
-                    <img src="styles/images/Mars_Orbiter_Mission_Spacecraft.jpg" alt="Mars Orbiter Mission spacecraft">
-                    <p><u>Components of the Mars Mission</u></p>
-                </center>
-            </div>
-            <div class="slides">
-                <center>
-                    <h1>
-                        INSAT - Indian National Satellite System
-                    </h1>
-                    <p class="slide_content">
-                        INSAT was commissioned in 1983 with the launch of INSAT-1B. It was a revolutionary system at
-                        that time and continues to be a pillar for broadcasting sector in India. It brought forward a
-                        television and audio revolution in India to where it is now. It is a thick network of 11
-                        sattelites that are monitored and controlled by Master Control Facilities present in Bhopal and
-                        Hassan.
-                        The INSAT sattelites' provides threee diffrent electromagnetic bands for various purposes. The
-                        INSAT system also enables India to recieve SOS messages from the South Asian and Indian Ocean
-                        for search and rescue missions.
-                    </p>
-                    <br><br><br>
-                    <img src="styles/images/insat3b.jpg" alt="INSAT 3B">
-                    <p><u>The first INSAT sattelite that succeeded</u></p>
-                </center>
-            </div>
-            <a class="previous" onclick="goBack()">&#10094;</a>
-            <a class="forward" onclick="goForward()">&#10095;</a>
-        </div>
 
-        <div class="dot-container">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-    </center>
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </center>
+    </div>
 </body>
 
 </html>
